@@ -1,4 +1,4 @@
-package com.ironz.unsafe;
+package xyz.codezero.unsafe;
 
 import org.junit.Test;
 

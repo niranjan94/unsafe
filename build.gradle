@@ -1,4 +1,4 @@
-group 'com.implimentz'
+group 'xyz.codezero'
 version version
 
 apply plugin: 'java'
@@ -36,15 +36,15 @@ buildscript {
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'unsafe'
-    publishedGroupId = 'com.implimentz'
+    publishedGroupId = 'xyz.codezero'
     libraryName = 'unsafe'
     artifact = 'unsafe'
     libraryDescription = 'Unsafe wrapper for android'
-    siteUrl = 'https://github.com/iamironz/unsafe'
-    gitUrl = 'https://github.com/iamironz/unsafe'
+    siteUrl = 'https://github.com/niranjan94/unsafe'
+    gitUrl = 'https://github.com/niranjan94/unsafe'
     libraryVersion = ext.version
-    developerId = 'iamironz'
-    developerName = 'Alexander Efremenkov'
+    developerId = 'niranjan94'
+    developerName = 'Alexander Efremenkov & Niranjan Rajendran'
     developerEmail = 'implimentz@gmail.com'
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'

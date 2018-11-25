@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ironz.unsafe;
+package xyz.codezero.unsafe;
 
 import android.annotation.TargetApi;
 import sun.misc.Unsafe;
@@ -611,5 +611,16 @@ public class UnsafeAndroid {
     @TargetApi(24)
     public void fullFence() {
         unsafe.fullFence();
+    }
+
+    /**
+     *
+     * @param clazz
+     *
+     * @since 1.8
+     */
+    @TargetApi(24)
+    public void ensureClassInitialized(Class<?> clazz) {
+        unsafe.ensureClassInitialized(clazz);
     }
 }
